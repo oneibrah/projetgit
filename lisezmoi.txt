@@ -1,0 +1,8 @@
+cd D:  " pour selectionner le local D
+mkdir  " pour créer un dossier projet"
+git init " pour initialiser"
+touch lisezmoi " pour créer un projet "
+git remote add origin https://github.com/oneibrah/projetgit.git " pour connecter le depot au depot distant"
+git add lisezmoi.txt " pour ajouter le fichier dans le depot distant"
+git commit -m " commentaire"
+git push origin master "pour envoyer le fichier lisezmoi au depot distant"
